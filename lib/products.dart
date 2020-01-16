@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Products extends StatelessWidget {
-  List<String> products;
-  
+  final List<String> products;
+
   Products(this.products);
   
   @override
